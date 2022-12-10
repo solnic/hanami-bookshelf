@@ -5,5 +5,6 @@ require "hanami/action"
 
 module Bookshelf
   class Action < Hanami::Action
+    format :html
   end
 end

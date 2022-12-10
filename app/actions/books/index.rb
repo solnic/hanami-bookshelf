@@ -10,8 +10,7 @@ module Bookshelf
             {title: "Practical Object-Oriented Design in Ruby"}
           ]
 
-          response.format = :json
-          response.body = books.to_json
+          response.render(view, books: books)
         end
       end
     end

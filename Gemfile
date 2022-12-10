@@ -29,6 +29,7 @@ end
 
 group :test do
   gem "rack-test"
+  gem "capybara"
 end
 
 gem "slim", "~> 4.1"
